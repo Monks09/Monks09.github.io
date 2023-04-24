@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.b9a7d203.js",
+    "main.css": "/static/css/main.a957ea42.css",
+    "main.js": "/static/js/main.ee39a44f.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/project_image_2.png": "/static/media/project_image_2.eac477944cf14b3f9648.png",
+    "static/media/project_image_1.png": "/static/media/project_image_1.62653dd21cef2b56f99d.png",
+    "static/media/project_image_4.png": "/static/media/project_image_4.b4fa05d75848338509e7.png",
+    "static/media/my-avatar.jpg": "/static/media/my-avatar.1e8353e2a7fe5a2f5287.jpg",
+    "static/media/project_image_3.png": "/static/media/project_image_3.c143a0825c39eace4009.png",
+    "static/media/portfolio-bg.jpg": "/static/media/portfolio-bg.c29a659f22bde0312664.jpg",
+    "static/media/Mayank_Sharma_Resume.pdf": "/static/media/Mayank_Sharma_Resume.0ef3aa385d5780abb50b.pdf",
+    "static/media/css-icon.png": "/static/media/css-icon.845e8eb63836bef093cf.png",
+    "static/media/mongodb-icon.svg": "/static/media/mongodb-icon.6835c61a518a732eb8318d43dfe8f700.svg",
+    "static/media/express-icon.svg": "/static/media/express-icon.53eead602dd6a01fdc6217b58a3989ac.svg",
+    "static/media/nodejs-icon.svg": "/static/media/nodejs-icon.10c9e2aa0ca7edf36fceae25fec038a1.svg",
+    "static/media/redux-icon.svg": "/static/media/redux-icon.7fe607aacc31f6e6199e70f16aae407e.svg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.b9a7d203.js.map": "/static/js/main.b9a7d203.js.map",
+    "main.a957ea42.css.map": "/static/css/main.a957ea42.css.map",
+    "main.ee39a44f.js.map": "/static/js/main.ee39a44f.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.b9a7d203.js"
+    "static/css/main.a957ea42.css",
+    "static/js/main.ee39a44f.js"
   ]
 }
