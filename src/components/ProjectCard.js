@@ -1,13 +1,11 @@
-import './ProjectCard.css';
-
-function ProjectCard({ image, title, description, type, tech_stack, github_link, website_link }) {
+function ProjectCard({ image, title, desc, type, tech_stack, github_link, website_link }) {
     return <div className="ProjectCard">
         <div>
             <img src={image} alt='project-img' />
         </div>
         <div>
             <h1>{title}</h1>
-            <p>{description}</p>
+            <p>{desc}</p>
             <p style={{ fontWeight: "bold" }}>{type}</p>
             <div className="tagsDiv">
                 <span>Tech Stack:</span>

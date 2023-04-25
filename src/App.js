@@ -1,26 +1,19 @@
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
-import Profile from './Components/Profile/Profile';
-import About from './Components/About/About';
-import Skills from './Components/Skills/Skills';
-import Projects from './Components/Projects/Projects';
-import Statistics from './Components/Statistics/Statistics';
-import Footer from './Components/Footer/Footer';
-import Contact from './Components/Contact/Contact';
-import GithubCalender from './Components/GithubCalender/GithubCalender';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/NavBar';
+import Banner from './components/Banner';
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Profile />
+      <NavBar />
+      <Banner />
       <About />
       <Skills />
       <Projects />
-      {/* <GithubCalender /> */}
-      <Statistics />
-      <Contact />
-      <Footer />
     </div>
   );
 }
