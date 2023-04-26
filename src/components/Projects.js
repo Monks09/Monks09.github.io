@@ -14,7 +14,6 @@ function Projects(props) {
             title: "Quora",
             subTitle: "Blogs and QnA website",
             desc: "Quora is a social media website to gain and share knowledge. Here users can ask questions and get answers on a variety of topics.",
-            type: "Collaborative Project",
             tech_stack: ["HTML", "CSS", "JS", "React", "Redux", "NodeJS", "ExpressJS", "MongoDB"],
             github_link: "",
             website_link: ""
@@ -24,7 +23,6 @@ function Projects(props) {
             title: "MyFitnessPal",
             subTitle: "Health Tracker website",
             desc: "MyFitnessPal is a health and fitness tracker application",
-            type: "Collaborative Project",
             tech_stack: ["HTML", "CSS", "JS", "React", "Redux"],
             github_link: "",
             website_link: ""
@@ -34,7 +32,6 @@ function Projects(props) {
             title: "Asos",
             subTitle: "Clothing and Apparel website",
             desc: "Asos is an online clothing and accessories store for men and women",
-            type: "Collaborative Project",
             tech_stack: ["HTML", "CSS", "JavaScript", "JSON-Server"],
             github_link: "",
             website_link: ""
@@ -44,7 +41,6 @@ function Projects(props) {
             title: "Bewakoof",
             subTitle: "E-Commerce website",
             desc: "Bewakoof.com is an online shopping store with specially designed and curated products for the young generation.",
-            type: "Collaborative Project",
             tech_stack: ["HTML", "CSS", "JavaScript"],
             github_link: "",
             website_link: ""
