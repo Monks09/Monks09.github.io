@@ -566,8 +566,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .statsDiv {
     margin-top: 20px;
-    display: flex;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    gap: 50px;
 }
 
 
