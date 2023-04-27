@@ -1,9 +1,13 @@
 import React from 'react';
+import { GithubContributions } from "react-github-graph";
 
 function GithubStats(props) {
     return (
         <div className='github-stats' id='github-stats'>
             <h1 className='section-heading'>Github Stats</h1>
+            {/* <div className='calenderDiv'>
+                <GithubContributions username="Monks09" />
+            </div> */}
             <div className="statsDiv">
                 <div>
                     <img src="https://camo.githubusercontent.com/724474d6d40f9254eb4af1dcab64e12aec9ce7e1468dbd8d509e8a54eb970e7b/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d6d6f6e6b7330392673686f775f69636f6e733d74727565266c6f63616c653d656e" alt="stat-1" />
