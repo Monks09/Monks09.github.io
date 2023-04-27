@@ -3,7 +3,7 @@ import projectImg1 from "../assets/img/project_image_1.png";
 import projectImg2 from "../assets/img/project_image_2.png";
 import projectImg3 from "../assets/img/project_image_3.png";
 import projectImg4 from "../assets/img/project_image_4.png";
-
+import colorSharp2 from "../assets/img/color-sharp2.png";
 
 
 function Projects(props) {
@@ -48,12 +48,13 @@ function Projects(props) {
     ]
 
     return <div className="Projects" id="projects">
-        <h2>Projects</h2>
+        <h2 className="section-heading">Projects</h2>
         {
             projects.map((project, index) => {
                 return <ProjectCard key={index} {...project} />
             })
         }
+        <img className="background-image-right" src={colorSharp2}></img>
     </div>
 }
 

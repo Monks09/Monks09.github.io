@@ -48,6 +48,8 @@ const NavBar = () => {
                             <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
                             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
                             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+                            <Nav.Link href="#github-stats" className={activeLink === 'github-stats' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('github-stats')}>Github Stats</Nav.Link>
+                            <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>Contact Me</Nav.Link>
                         </Nav>
                         <span className="navbar-text">
                             <div className="social-icon">
@@ -55,9 +57,6 @@ const NavBar = () => {
                                 <a href="#"><img src={navIcon2} alt="" /></a>
                                 <a href="#"><img src={navIcon3} alt="" /></a>
                             </div>
-                            <HashLink to='#connect'>
-                                <button className="vvd"><span>Let’s Connect</span></button>
-                            </HashLink>
                         </span>
                     </Navbar.Collapse>
                 </Container>
