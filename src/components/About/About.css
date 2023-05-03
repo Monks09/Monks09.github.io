@@ -1,12 +1,11 @@
-.about {
-    width: 80%;
+.about-section {
+    width: 85%;
     margin: 100px auto;
     padding: 50px;
-    box-shadow: 0 0 10px teal;
+    box-shadow: 0 0 20px teal;
     border-radius: 10px;
 }
 
-.about p {
+.about-section p {
     font-size: 20px;
 }
-

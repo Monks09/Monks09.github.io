@@ -1,10 +1,6 @@
-.projects {
-    width: 80%;
+.projects-section {
+    width: 85%;
     margin: auto;
     padding: 20px;
     margin-bottom: 100px;
-}
-
-.projects>h1 {
-    text-align: center;
 }

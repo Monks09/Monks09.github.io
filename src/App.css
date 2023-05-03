@@ -101,5 +101,6 @@ p.danger {
     text-align: center;
     color: teal;
     margin-bottom: 20px;
+    text-decoration: underline;
 }
 

@@ -2,7 +2,7 @@ import './Contact.css';
 import ContactCard from './ContactCard';
 
 function Contact(props) {
-    return <div className="contact" id="contact">
+    return <div className="contact-section" id="contact">
         <h1 className='section-heading'>Contact Me</h1>
         <div className="contact-cards-div">
             <ContactCard id="contact-linkedin" icon="fa-brands fa-linkedin" heading="LinkedIn" text="You can contact me on LinkedIn" link="https://www.linkedin.com/in/mayank-sharma-2a25ab251/" link_text="mayank-sharma" />

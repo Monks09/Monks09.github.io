@@ -4,7 +4,7 @@ import avatar from "../../assets/img/my-avatar.jpg";
 
 function Home(props) {
     return (
-        <div className='home' id='home'>
+        <div className='home-section' id='home'>
             <div className='overlay'></div>
             <div className='titleDiv'>
                 <h2>Hi, I am Mayank</h2>

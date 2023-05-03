@@ -41,7 +41,7 @@ function Projects(props) {
             website_link: "https://bewkoofclone.netlify.app/",
         }
     ]
-    return <div className="projects" id="projects">
+    return <div className="projects-section" id="projects">
         <h1 className='section-heading'>Projects</h1>
         {
             projects.map((project, index) => {

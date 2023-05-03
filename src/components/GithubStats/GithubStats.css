@@ -1,13 +1,29 @@
 .github-stats {
     text-align: center;
-    width: 80%;
+    width: 85%;
     margin: auto;
     margin-bottom: 100px;
 }
 
+.calender-div {
+    padding: 20px;
+    border: 2px solid teal;
+    margin-top: 50px;
+}
+
 .stats-div {
-    margin-top: 30px;
+    margin-top: 50px;
     display: grid;
-    grid-template-columns: 2fr 1.5fr;
-    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+#github-top-langs {
+    height: 250px;
+
+}
+
+.stats-div img {
+    border: 2px solid teal;
+    padding: 10px;
 }
