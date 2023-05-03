@@ -1,0 +1,12 @@
+.About {
+    width: 80%;
+    margin: 100px auto;
+    padding: 50px;
+    box-shadow: 0 0 10px teal;
+    border-radius: 10px;
+}
+
+.About p {
+    font-size: 20px;
+}
+

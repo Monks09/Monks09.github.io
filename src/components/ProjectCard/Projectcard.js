@@ -1,11 +1,9 @@
-function ProjectCard({ image, title, subTitle, desc, tech_stack, github_link, website_link }) {
+import './ProjectCard.css';
+
+function ProjectCard({ image, title, desc, tech_stack, github_link, website_link }) {
     return <div className="ProjectCard">
-        <div className="proj-imgbx">
-            <img src={image} />
-            <div className="proj-txtx">
-                <h4>{title}</h4>
-                <span>{subTitle}</span>
-            </div>
+        <div>
+            <img src={image} alt='project-img' />
         </div>
         <div>
             <h1>{title}</h1>

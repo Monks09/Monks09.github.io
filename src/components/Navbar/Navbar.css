@@ -1,0 +1,30 @@
+.Navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    font-style: italic;
+    background-image: url('../../assets/img/portfolio-bg.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px teal;
+
+}
+
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    color: teal;
+    border-bottom: 3px solid teal;
+    padding-bottom: 10px;
+}
