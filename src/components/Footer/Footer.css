@@ -1,10 +1,10 @@
-.Footer {
+.footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px 0px;
+    padding: 15px 0px;  
 }
 
-.Footer i {
+.footer i {
     color: red;
 }

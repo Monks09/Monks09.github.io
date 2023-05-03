@@ -1,15 +1,19 @@
-.ProjectCard {
+.project-card {
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 40px;
     margin: 50px 0px;
 }
 
-
-.ProjectCard img {
+.project-card img {
     width: 100%;
-    border: 5px solid black;
-    border-radius: 5px;
+    border: 0.5 solid black;
+    border-radius: 1rem;
+}
+
+.tagsDiv {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .tagsDiv>span {
@@ -17,8 +21,8 @@
     margin-right: 10px;
 }
 
-.tech-name {
-    color: green;
+.project-tech-stack {
+    color: skyblue;
 }
 
 .linksDiv {
@@ -38,7 +42,7 @@
 }
 
 .linksDiv>a:first-child {
-    background-color: black;
+    background-color: grey;
 }
 
 .linksDiv>a:last-child {

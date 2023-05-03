@@ -1,12 +1,12 @@
-.ContactCard {
+.contact-card {
     text-align: center;
 }
 
-.ContactCard i {
+.contact-card i {
     font-size: 30px;
 }
 
-.ContactCard a {
-    color: green;
+.contact-card a {
+    color: teal;
     margin: auto;
 }

@@ -1,4 +1,4 @@
-.About {
+.about {
     width: 80%;
     margin: 100px auto;
     padding: 50px;
@@ -6,7 +6,7 @@
     border-radius: 10px;
 }
 
-.About p {
+.about p {
     font-size: 20px;
 }
 

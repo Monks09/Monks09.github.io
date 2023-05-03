@@ -1,10 +1,10 @@
-.Projects {
+.projects {
     width: 80%;
     margin: auto;
     padding: 20px;
     margin-bottom: 100px;
 }
 
-.Projects > h1 {
+.projects>h1 {
     text-align: center;
 }

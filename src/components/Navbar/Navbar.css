@@ -1,9 +1,6 @@
-.Navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    height: 50px;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.navbar {
     position: sticky;
     top: 0px;
     font-style: italic;
@@ -12,19 +9,39 @@
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 0 10px teal;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
 }
 
+#logo {
+    font-family: 'Lobster', cursive;
+}
 
-.nav-item {
+.nav-links-div {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav-link {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-.nav-item:hover {
+.nav-link:hover {
     cursor: pointer;
-    color: teal;
-    border-bottom: 3px solid teal;
+    color: skyblue;
+    border-bottom: 3px solid skyblue;
     padding-bottom: 10px;
+}
+
+#resume-link-1 {
+    background-color: teal;
+    color: white;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    text-decoration: none;
 }

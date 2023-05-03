@@ -99,5 +99,7 @@ p.danger {
     font-size: 45px;
     font-weight: 700;
     text-align: center;
+    color: teal;
+    margin-bottom: 20px;
 }
 

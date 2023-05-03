@@ -11,8 +11,8 @@ import mongodbIcon from '../../assets/img/mongodb-icon.svg';
 import githubIcon from '../../assets/img/github-icon.svg';
 
 function Skills(props) {
-    return <div className="Skills" id="skills">
-        <h1 className='section-heading'>SKILLS</h1>
+    return <div className="skills" id="skills">
+        <h1 className='section-heading'>Skills</h1>
         <div className="skillsContainer">
             <SkillCard image={htmlIcon} skill_name="HTML" />
             <SkillCard image={cssIcon} skill_name="CSS" />
