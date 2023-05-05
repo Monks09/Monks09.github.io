@@ -22,6 +22,7 @@
 .nav-links-div {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 50px;
 }
 
@@ -38,10 +39,11 @@
     padding-bottom: 10px;
 }
 
-#resume-link-1 {
+#resume-button-1 a {
     background-color: teal;
-    color: white;
-    padding: 1rem;
     border-radius: 1.5rem;
+    text-decoration: none;
+    padding: 0.5rem;
+    color: white;
     text-decoration: none;
 }

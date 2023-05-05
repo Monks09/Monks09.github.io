@@ -10,9 +10,11 @@ function Home(props) {
                 <h2>Hi, I am Mayank</h2>
                 <h2>Full Stack Developer</h2>
                 <div className='resume-div' >
-                    <a id='resume-link-2' href='resume.pdf' target='_blank' rel="noreferrer" download>Download CV</a>
+                    <button id='resume-button-2'>
+                        <a id='resume-link-2' href='resume.pdf' target='_blank' rel="noreferrer" download>Download CV</a>
+                    </button>
                 </div>
-            </div>
+            </div> 
             <div className='avatarDiv'>
                 <img id='avatar' className='home-img' src={avatar} alt='avatar' />
             </div>
