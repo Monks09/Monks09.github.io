@@ -27,6 +27,3 @@ function App() {
 
 
 export default App;
-
-// This is my portfolio website built using React js
-// All my professional work can be viewed here

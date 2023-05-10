@@ -3,3 +3,9 @@
     padding: 20px;
     border-radius: 10px;
 }
+
+#ExpressJS img,
+#Github img {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}

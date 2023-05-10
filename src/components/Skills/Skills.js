@@ -22,7 +22,7 @@ function Skills(props) {
             <SkillCard image={nodeIcon} skill_name="NodeJS" />
             <SkillCard image={expressIcon} skill_name="ExpressJS" />
             <SkillCard image={mongodbIcon} skill_name="MongoDB" />
-            <SkillCard image={githubIcon} skill_name="Git/Github" />
+            <SkillCard image={githubIcon} skill_name="Github" />
         </div>
     </div>
 }
