@@ -6,6 +6,6 @@ div.about {
     border-radius: 10px;
 }
 
-.about-section p {
-    font-size: 20px;
+.about p {
+    font-size: 1.5rem;
 }

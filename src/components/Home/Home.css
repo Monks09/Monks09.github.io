@@ -1,22 +1,29 @@
 .home-section {
-    margin-top: 0;
-    height: 65vh;
-    background-image: url('../../assets/img/portfolio-bg.jpg');
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    position: relative;
+}
+
+#background-img {
+    opacity: 0.5;
+    height: 430px;
+}
+
+.container {
+    position: absolute;
+    top: 10%;
+    left: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10vw;
+    gap: 5vw;
+    padding: 1rem;
 }
 
 .titleDiv h2 {
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 .resume-div {
-    margin: 30px 0px;
+    margin-top: 2.5rem;
 }
 
 #resume-button-2 a {
@@ -25,10 +32,41 @@
     padding: 1rem;
     border-radius: 1.5rem;
     text-decoration: none;
+    border: 1px solid rgb(0, 95, 95);
+}
+
+#resume-button-2 a:hover {
+    background-color: rgb(4, 120, 120);
+    box-shadow: 0 0 20px teal;
 }
 
 #avatar {
-    width: 25vw;
+    width: 330px;
     border-radius: 50%;
-    box-shadow: 0 0 10px teal;
+    box-shadow: 0 0 20px teal;
+}
+
+
+/*** Media queries ***/
+
+/* Medium Screen */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+    #background-img {
+        height: 700px;
+    }
+}
+
+
+/* Small Screen */
+@media only screen and (max-width: 480px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    #background-img {
+        height: 800px;
+    }
 }
