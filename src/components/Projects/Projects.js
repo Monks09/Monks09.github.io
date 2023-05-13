@@ -14,7 +14,7 @@ function Projects(props) {
             desc: "Quora is a social media website to gain and share knowledge. Here users can ask questions and get answers on a variety of topics.",
             tech_stack: ["HTML", "CSS", "JavaScript", "React", "Redux", "NodeJS", "ExpressJS", "MongoDB"],
             github_link: "https://github.com/Monks09/Quora",
-            website_link: "https://heartfelt-llama-580bb7.netlify.app/",
+            website_link: "https://quora-monks.netlify.app/",
         },
         {
             title: "MyFitnessPal",

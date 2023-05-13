@@ -13,7 +13,7 @@ function Home(props) {
                     <h2>Full Stack Developer</h2>
                     <div className='resume-div' >
                         <button id='resume-button-2'>
-                            <a id='resume-link-2' href='resume.pdf' target='_blank' rel="noreferrer" download>Download CV</a>
+                            <a id='resume-link-2' href='mayank-resume.pdf' target='_blank' rel="noreferrer" download>Download CV</a>
                         </button>
                     </div>
                 </div>

@@ -17,7 +17,7 @@ function Navbar(props) {
                 <Link className="nav-link contact" to="contact" spy={true} smooth={true} offset={-100} duration={200} >CONTACT ME</Link>
 
                 <button id='resume-button-1' className="nav-link resume">
-                    <a id='resume-link-1' href='resume.pdf' target="_blank" rel="noreferrer" download>RESUME</a>
+                    <a id='resume-link-1' href='mayank-resume.pdf' target="_blank" rel="noreferrer" download>RESUME</a>
                 </button>
 
             </div>
